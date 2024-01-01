@@ -17,7 +17,7 @@ abstract class AppTextStyle {
   );
   // quoteHeading Text Style
   static const TextStyle quoteHeading = TextStyle(
-    fontSize: 23,
+    fontSize: 18,
     fontWeight: FontWeight.w400, // regular
     height: 1.5, // 34.5px
     fontFamily: 'Poppins',
