@@ -39,6 +39,7 @@ dependencies:
   flutter_screenutil: ^5.9.0
   cached_network_image: ^3.3.1
   flutter_svg: ^2.0.9
+  persistent_bottom_nav_bar: ^5.0.2
 
 dev_dependencies:
   flutter_test:

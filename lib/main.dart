@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:quotes_app/core/theme/color_schemes.dart';
-import 'package:quotes_app/core/theme/theme_helper.dart';
-import 'package:quotes_app/features/authentication/authentication_screen.dart';
-import 'package:quotes_app/features/homescreen/home_screen.dart';
+import 'package:quotes_app/features/landing/landing_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,7 +26,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData(colorScheme: lightColorScheme),
-        home: const HomeScreen(),
+        home: LandingScreen(),
       ),
     );
   }

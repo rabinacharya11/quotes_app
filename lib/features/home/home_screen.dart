@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:quotes_app/core/theme/color_styles.dart';
 import 'package:quotes_app/core/theme/custom_text_style.dart';
+import 'package:quotes_app/widgets/drawer.dart';
 import 'package:quotes_app/widgets/homescreen/thought_card.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -27,7 +28,7 @@ class HomeScreen extends StatelessWidget {
             SizedBox(width: 16),
           ],
         ),
-        drawer: Drawer(),
+        drawer: const AppDrawer(),
         body: SafeArea(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 16.w),
