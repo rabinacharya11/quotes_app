@@ -20,7 +20,6 @@ class SplashScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SizedBox(height: 5.h),
               SizedBox(
                 width: 313.h,
                 child: const Text(
